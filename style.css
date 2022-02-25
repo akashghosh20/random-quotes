@@ -1,0 +1,36 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px ;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin:50px auto;
+    background:linear-gradient(rgb(223, 143, 143),rgb(236, 202, 132),rgb(119, 119, 247)) ;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+#author,#quotes{
+
+    background-color: blueviolet;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    
+}
+#newQuotes:hover{
+
+    background: linear-gradient(45deg,rgb(177, 144, 144),rgb(161, 216, 161),rgb(114, 114, 165),rgb(238, 202, 202));
+   
+}
+
+body{
+    background: linear-gradient(45deg,rgb(197, 182, 182),rgb(193, 193, 241));
+}
+    
+#newQuotes{
+    font-size: 20px;
+    background-color: blueviolet;
+}
